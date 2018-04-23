@@ -30,10 +30,6 @@ androidExtensions {
     experimental = true
 }
 
-kapt {
-    generateStubs = true
-}
-
 def depVersions = [
         support         : '27.1.0',
         dagger          : '2.14.1',
@@ -45,8 +41,7 @@ def depVersions = [
         okhttp          : '3.8.1',
         cicerone        : '2.1.0',
         picasso         : '2.71828',
-        photoview       : '2.1.3',
-        yandexdisk      : '1.0'
+        photoview       : '2.1.3'
 ]
 
 def depTestVersions = [
@@ -87,8 +82,6 @@ dependencies {
     implementation "com.squareup.retrofit2:adapter-rxjava2:${depVersions.retrofit}"
 
     implementation "ru.terrakok.cicerone:cicerone:${depVersions.cicerone}"
-
-    implementation "com.yandex.android:disk-restapi-sdk:${depVersions.yandexdisk}"
 
     implementation "com.squareup.picasso:picasso:${depVersions.picasso}"
     implementation "com.github.chrisbanes:PhotoView:${depVersions.photoview}"
