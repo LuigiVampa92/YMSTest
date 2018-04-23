@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="TextAppearance.Small" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.Medium" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Small.Black" parent="TextAppearance.Small">
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="TextAppearance.Medium.Colored" parent="TextAppearance.Medium">
+        <item name="android:textColor">@color/color_primary</item>
+    </style>
+
+    <style name="TextAppearance.Medium.White" parent="TextAppearance.Medium">
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+
+</resources>

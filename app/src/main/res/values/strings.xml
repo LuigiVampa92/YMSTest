@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">YandexTest</string>
+    <string name="text_main_splash">Y</string>
+
+    <string name="text_error">Ошибка</string>
+    <string name="text_ok">OK</string>
+    <string name="text_yes">Да</string>
+    <string name="text_no">Нет</string>
+
+    <!--AuthFragment-->
+    <string name="text_title_auth">Авторизация</string>
+    <string name="text_button_enter">Войти</string>
+    <string name="text_app_description">Это приложение - тестовое задание на поступление в "Школу мобильных разработчиков" Яндекс 2018г. С помощью этого приложения можно просматривать картинки сохраненные в сервисе Яндекс.Диск\nДля продолжения необходимо авторизоваться с помощью учётной записи Яндекс</string>
+    <string name="text_access_not_granted">Доступ не был предоставлен</string>
+
+    <!--ImageListFragment-->
+    <string name="text_menu_iem_deauth">Выйти из уч. записи</string>
+    <string name="text_confirm_deauth">Вы уверены что хотите выйти из учётной записи?</string>
+    <string name="text_title_image_list">Изображения</string>
+    <string name="text_no_items">Нет изображений</string>
+</resources>
